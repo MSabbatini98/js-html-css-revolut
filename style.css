@@ -1,0 +1,39 @@
+* {
+    border: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Roboto', sans-serif;
+}
+
+body{
+    background-color: deepskyblue;
+    margin: auto;
+}
+button {
+    padding: 10px 20px;
+    font-weight: bold;
+    border-radius: 10px;
+}
+/* **************** Header */
+    /* ? upper header */
+header .upper_nav {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: dodgerblue;
+
+}
+    /* ? lower header */
+header .lower_nav {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+header .lower_nav ul li{
+    display: inline-block;
+    padding: 0 10px;
+}
+header .lower_nav ul li a{
+    text-decoration: none;
+    
+}
