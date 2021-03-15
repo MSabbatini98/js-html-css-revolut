@@ -6,13 +6,28 @@
 }
 
 body{
-    background-color: deepskyblue;
+    background-color: dodgerblue;
     margin: auto;
 }
+    /*  ? Bottoni */
 button {
     padding: 10px 20px;
     font-weight: bold;
     border-radius: 10px;
+}
+.btn_signin{
+    color : rgb(25, 28, 31);
+    background-color: rgba(230, 230, 230, 0.6);
+}
+.btn_get_app {
+    color: white;
+    background-color: black;
+}
+.btn_accept {
+    color: rgb(139, 149, 158);
+    background-color: inherit;
+    border: 2px black solid;
+    border-color: rgb(139, 149, 158);
 }
 /* **************** Header */
     /* ? upper header */
@@ -20,14 +35,17 @@ header .upper_nav {
     display: flex;
     justify-content: space-between;
     align-items: center;
-    background-color: dodgerblue;
-
+    background-color: deepskyblue;
 }
+
     /* ? lower header */
 header .lower_nav {
     display: flex;
     justify-content: space-between;
     align-items: center;
+}
+header .lower_nav img{
+    width: 45px;
 }
 header .lower_nav ul li{
     display: inline-block;
@@ -35,5 +53,8 @@ header .lower_nav ul li{
 }
 header .lower_nav ul li a{
     text-decoration: none;
-    
+    color: inherit;
+}
+header .left_lower_nav {
+    display: flex;
 }
